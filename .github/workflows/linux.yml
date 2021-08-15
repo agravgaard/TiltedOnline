@@ -42,7 +42,7 @@ jobs:
     # Build the game
     - name: Build
       run: xmake
-    
+
     # Create install
     - name: Install
       run: xmake install -o packaged
