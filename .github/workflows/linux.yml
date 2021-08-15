@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-20.04]
-        arch: [x64]
+        arch: [x64, armv7]
         mode: [debug, release]
 
     runs-on: ${{ matrix.os }}
